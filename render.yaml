@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: devil-x-telegraph
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 -m DevilxTelegraph
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false

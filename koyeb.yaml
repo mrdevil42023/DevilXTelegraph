@@ -1,0 +1,11 @@
+name: devil-x-telegraph
+services:
+  - name: bot
+    type: worker
+    git:
+      branch: main
+    build:
+      buildpack:
+        build_command: pip install -r requirements.txt
+    run:
+      command: python3 -m DevilxTelegraph
