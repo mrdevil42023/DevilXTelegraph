@@ -7,7 +7,6 @@ joinButton = InlineKeyboardMarkup([
     [InlineKeyboardButton("😈 OWNER 😈", url="http://t.me/mrdevil12")],
     [InlineKeyboardButton("🔥 UPDATE CHANNEL 🔥", url="https://t.me/devilbots971")],
     [InlineKeyboardButton("🔥 SUPPORT GROUP 🔥", url="https://t.me/devilbotsupport")],
-    [InlineKeyboardButton("📖 Help & Commands", switch_inline_query_current_chat="/help")],
 ])
 
 @Client.on_message(filters.command("start"))
