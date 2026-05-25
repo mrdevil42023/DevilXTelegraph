@@ -82,8 +82,8 @@ pip install --upgrade pip
 
 **3. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Devil_X_Telegraph.git
-cd Devil_X_Telegraph
+git clone https://github.com/mrdevil42023/DevilXTelegraph.git
+cd DevilXTelegraph
 ```
 
 **4. Install Python packages**
@@ -130,8 +130,8 @@ sudo apt install python3 python3-pip git screen -y
 
 **2. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Devil_X_Telegraph.git
-cd Devil_X_Telegraph
+git clone https://github.com/mrdevil42023/Devil_X_Telegraph.git
+cd DevilXTelegraph
 ```
 
 **3. Install Python packages**
@@ -166,7 +166,7 @@ After=network.target
 [Service]
 Type=simple
 User=YOUR_LINUX_USER
-WorkingDirectory=/home/YOUR_LINUX_USER/Devil_X_Telegraph
+WorkingDirectory=/home/YOUR_LINUX_USER/DevilXTelegraph
 ExecStart=/usr/bin/python3 -m DevilxTelegraph
 Restart=always
 RestartSec=10
@@ -192,8 +192,8 @@ Download from [python.org](https://www.python.org/downloads/) — check **"Add P
 
 **2. Clone the repo**
 ```cmd
-git clone https://github.com/YOUR_USERNAME/Devil_X_Telegraph.git
-cd Devil_X_Telegraph
+git clone https://github.com/mrdevil42023/DevilXTelegraph.git
+cd DevilXTelegraph
 ```
 
 **3. Install packages**
@@ -443,3 +443,4 @@ CREATE TABLE chats (
 ## 👨‍💻 Credits
 
 Created by [MR DEVIL](http://t.me/mrdevil12) — Join [Devil Bot's Channel](https://t.me/devilbots971) for updates.
+[ᗪEᐯIᒪ ᙭ TEᒪEGᖇᗩᑭᕼ](http://t.me/devilxtelegraph_bot)
